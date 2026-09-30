@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohith N - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Rohith N</div>
+        <ul class="nav-menu">
+            <li><a href="#about" class="nav-link active" data-page="about">About</a></li>
+            <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+            <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+            <li><a href="#edit" class="nav-link edit-btn-nav" data-page="edit">Edit</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Indicator -->
+    <div class="page-indicator">
+        <span class="page-dot active" data-page="about"></span>
+        <span class="page-dot" data-page="projects"></span>
+        <span class="page-dot" data-page="contact"></span>
+        <span class="page-dot" data-page="edit"></span>
+    </div>
+
+    <!-- About Page -->
+    <section id="about" class="page active">
+        <div class="hero">
+            <div class="hero-content">
+                <div class="profile-circle">
+                    <i class="fas fa-user"></i>
+                </div>
+                <h1>Rohith N</h1>
+                <p class="tagline">Passionate Developer | Creative Problem Solver</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">18</span>
+                        <span class="stat-label">Years</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">Always</span>
+                        <span class="stat-label">Learning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="personal-info-card">
+                        <h3>Personal Information</h3>
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <span class="info-label">Name</span>
+                                    <span class="info-value">Rohith N</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-birthday-cake"></i>
+                                <div>
+                                    <span class="info-label">Age</span>
+                                    <span class="info-value">18</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-calendar-alt"></i>
+                                <div>
+                                    <span class="info-label">Birth Date</span>
+                                    <span class="info-value">30/04/2008</span>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <span class="info-label">Place</span>
+                                    <span class="info-value">Ambalathara</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-text-card">
+                        <h3>My Story</h3>
+                        <p>Hey, I’m Rohith N — an AI/ML student, developer, and web enthusiast who loves turning ideas into experiences that actually work.</p>
+                        <p>My journey revolves around Artificial Intelligence, Machine Learning, software development, and web technologies. I enjoy solving problems through code, experimenting with emerging technologies, and building projects that combine functionality with creativity.</p>
+                        <p>Beyond technology, I’m also a passionate singer. 🎤 Singing gives me a creative outlet and allows me to express myself in a completely different way. I believe the best ideas happen when technology meets creativity, and that mindset shapes the way I approach everything I build.
+
+I’m constantly learning, experimenting, and challenging myself to create something better than what I built yesterday.</p>
+<p>Code. Create. Experiment. Evolve.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="quick-links section">
+            <div class="container">
+                <h2 class="section-title">Quick Access</h2>
+                <div class="links-grid">
+                    <a href="#projects" class="link-card" data-page="projects">
+                        <i class="fas fa-code"></i>
+                        <span>View Projects</span>
+                    </a>
+                    <a href="#contact" class="link-card" data-page="contact">
+                        <i class="fas fa-envelope"></i>
+                        <span>Contact Me</span>
+                    </a>
+                    <a href="#edit" class="link-card" data-page="edit">
+                        <i class="fas fa-edit"></i>
+                        <span>Edit Portfolio</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Projects Page -->
+    <section id="projects" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>My Projects</h1>
+                <p>Explore my latest creations and coding adventures</p>
+            </div>
+        </div>
+
+        <section class="section projects-section">
+            <div class="container">
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Web Application</div>
+                            <h3 class="project-title">MEDIBOT</h3>
+                            <p class="project-description">A full-featured e-commerce website with user authentication, product catalog, shopping cart, and payment integration.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Productivity</div>
+                            <h3 class="project-title">Task Manager Pro</h3>
+                            <p class="project-description">A powerful task management application with drag-and-drop functionality, team collaboration, and real-time updates.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Redux</span>
+                                <span>Firebase</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-category">Music</div>
+                            <h3 class="project-title">Melody AI</h3>
+                            <p class="project-description">An AI-powered music generation platform that creates unique melodies based on user preferences.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>TensorFlow</span>
+                                <span>Flask</span>
+                                <span>MusECS</span>
+                            </div>
+                            <a href="#" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Contact Page -->
+    <section id="contact" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Get In Touch</h1>
+                <p>I'd love to hear from you! Let's talk about your project or collaboration</p>
+            </div>
+        </div>
+
+        <section class="section contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Ambalathara</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">itsrohithn@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">7907141448</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <div>
+                                <span class="contact-label">Birth Date</span>
+                                <span class="contact-value">30/04/2008</span>
+                            </div>
+                        </div>
+                        <div class="social-section">
+                            <h3>Follow Me</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <h3>Send a Message</h3>
+                            <div class="form-group">
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Edit Page -->
+    <section id="edit" class="page">
+        <div class="page-hero edit-hero">
+            <div class="container">
+                <h1>Edit Portfolio</h1>
+                <p>Manage your portfolio content</p>
+            </div>
+        </div>
+
+        <section class="section edit-section">
+            <div class="container">
+                <div class="edit-tabs">
+                    <button class="tab-btn active" data-tab="personal">Personal Info</button>
+                    <button class="tab-btn" data-tab="about">About Me</button>
+                    <button class="tab-btn" data-tab="projects">Projects</button>
+                    <button class="tab-btn" data-tab="contact">Contact Info</button>
+                </div>
+
+                <div class="tab-content active" id="personal-tab">
+                    <div class="edit-card">
+                        <h3><i class="fas fa-user"></i> Personal Information</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Full Name</label>
+                                <input type="text" id="editName" value="Rohith N">
+                            </div>
+                            <div class="form-group">
+                                <label>Age</label>
+                                <input type="number" id="editAge" value="18" min="0" max="150">
+                            </div>
+                            <div class="form-group">
+                                <label>Birth Date</label>
+                                <input type="date" id="editBirthDate" value="2008-04-30">
+                            </div>
+                            <div class="form-group">
+                                <label>Place</label>
+                                <input type="text" id="editPlace" value="Ambalathara">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="about-tab">
+                    <div class="edit-card">
+                        <h3><i class="fas fa-info-circle"></i> About Me</h3>
+                        <div class="form-group">
+                            <label>Your Story</label>
+                            <textarea id="editAbout" rows="8">I'm Rohith N, an 18-year-old passionate developer from Ambalathara. With a keen interest in technology and innovation, I love creating solutions that make a difference. I'm constantly exploring new technologies and pushing the boundaries of what's possible. My journey in programming started with curiosity, and it has grown into a passion that drives me to build meaningful projects every day.
+
+When I'm not coding, you'll find me exploring new technologies, reading tech blogs, or working on creative projects. I believe in continuous learning and staying ahead in this ever-evolving tech landscape.</textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="projects-tab">
+                    <div class="edit-card">
+                        <h3><i class="fas fa-code"></i> Projects</h3>
+                        <div id="projectsEditContainer">
+                            <div class="project-edit-item">
+                                <input type="text" class="project-title" placeholder="Project Title" value="E-Commerce Platform">
+                                <textarea class="project-desc" placeholder="Project Description" rows="2">A full-featured e-commerce website with user authentication, product catalog, shopping cart, and payment integration.</textarea>
+                                <input type="url" class="project-link" placeholder="Project URL (optional)">
+                                <button type="button" class="remove-project-btn" onclick="this.closest('.project-edit-item').remove()">
+                                    <i class="fas fa-trash"></i> Remove
+                                </button>
+                            </div>
+                            <div class="project-edit-item">
+                                <input type="text" class="project-title" placeholder="Project Title" value="Task Manager Pro">
+                                <textarea class="project-desc" placeholder="Project Description" rows="2">A powerful task management application with drag-and-drop functionality, team collaboration, and real-time updates.</textarea>
+                                <input type="url" class="project-link" placeholder="Project URL (optional)">
+                                <button type="button" class="remove-project-btn" onclick="this.closest('.project-edit-item').remove()">
+                                    <i class="fas fa-trash"></i> Remove
+                                </button>
+                            </div>
+                            <div class="project-edit-item">
+                                <input type="text" class="project-title" placeholder="Project Title" value="Melody AI">
+                                <textarea class="project-desc" placeholder="Project Description" rows="2">An AI-powered music generation platform that creates unique melodies based on user preferences.</textarea>
+                                <input type="url" class="project-link" placeholder="Project URL (optional)">
+                                <button type="button" class="remove-project-btn" onclick="this.closest('.project-edit-item').remove()">
+                                    <i class="fas fa-trash"></i> Remove
+                                </button>
+                            </div>
+                        </div>
+                        <button type="button" class="add-project-btn" id="addProjectBtn">
+                            <i class="fas fa-plus"></i> Add New Project
+                        </button>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="contact-tab">
+                    <div class="edit-card">
+                        <h3><i class="fas fa-envelope"></i> Contact Information</h3>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" id="editEmail" value="rohith@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label>Phone</label>
+                                <input type="tel" id="editPhone" value="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group full-width">
+                                <label>Location</label>
+                                <input type="text" id="editLocation" value="Ambalathara">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="edit-actions">
+                    <button class="btn-cancel" id="cancelEdit">
+                        <i class="fas fa-times"></i> Cancel
+                    </button>
+                    <button class="btn-save" id="saveEdit">
+                        <i class="fas fa-save"></i> Save Changes
+                    </button>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <p>© 2024 Rohith N. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
